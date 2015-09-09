@@ -1,7 +1,8 @@
-<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+
 %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -21,6 +22,33 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    aaaa
+   	<form action="come.action" method="post">  
+  
+        <table align="left" width="50%" border="0" cellpadding="0"  
+            cellspacing="0">  
+  
+            <tr>  
+                <td></td>  
+            </tr>  
+            <tr>  
+  
+                <td height="30" bgcolor="" align="center" valign="middle">用户名：</td>  
+                <td align="left" height="30" valign="middle"><input  
+                    style="width: 150px" type="text" name="username" value=""></input></td>  
+  
+            </tr>  
+  
+  
+            <tr>  
+                <td height="30" bgcolor="" align="center" valign="middle">密 码：</td>  
+                <td align="left" height="30" valign="middle"><input  
+                    style="width: 150px" type="password" name="password" value=""></input></td>  
+            </tr>  
+  
+            <tr>  
+                <td align="right"><input type="submit" name="button" value="提交"></input></td>  
+            </tr>  
+        </table>  
+    </form>  
   </body>
 </html>

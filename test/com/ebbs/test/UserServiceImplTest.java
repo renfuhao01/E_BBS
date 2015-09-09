@@ -59,7 +59,7 @@ public class UserServiceImplTest {
 			System.out.println(user.toString());
 		}
 	}
-
+	
 /*	@Test
 	public void testUserLogin() {
 		User user = new User();
